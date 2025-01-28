@@ -186,9 +186,9 @@
          </div>
 
          <!-- cards  -->
-          <div class="all-cards flex flex-col gap-8 p-3  lg:flex-row justify-evenly mt-8 lg:mt-28">
+          <div class="all-cards flex flex-col gap-8 p-5  lg:flex-row justify-evenly mt-8 lg:mt-28">
 
-            <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <div class="card card-compact bg-base-100 lg:w-96 shadow-xl">
                 <figure>
                   <img
                     src="./images/others/latest1.png"
@@ -203,7 +203,7 @@
                 </div>
               </div>
 
-              <div class="card card-compact bg-base-100 w-96 shadow-xl">
+              <div class="card card-compact bg-base-100 lg:w-96 shadow-xl">
                 <figure>
                   <img
                     src="./images/others/latest2.png"
@@ -218,7 +218,7 @@
                 </div>
               </div>
 
-              <div class="card card-compact bg-base-100 w-96 shadow-xl">
+              <div class="card card-compact bg-base-100 lg:w-96 shadow-xl">
                 <figure>
                   <img
                     src="./images/others/latest3.png"
@@ -241,10 +241,10 @@
            </div>
 
           <!-- client card section  -->
-           <div class="client-section mt-28  lg:flex justify-evenly space-y-5 px-10">
+           <div class="client-section mt-28  lg:flex justify-evenly space-y-5 px-5">
 
 
-            <div class="client-1 flex flex-col items-center text-center space-y-5  border p-20 ">
+            <div class="client-1 flex flex-col items-center text-center space-y-5 mb-0 mt-5 border p-20 ">
 
                 <div><img class="w-[150px] h-[150px] " src="./images/others/user-1.png" alt=""></div>
                     
@@ -327,13 +327,13 @@
            </div>  <!-- client section end  -->
 
     <!-- FQA section  -->
-      <div class="q-section">
+      <div class="q-section mx-3">
 
         <div><h1 class="text-2xl lg:text-6xl font-bold text-center mt-28 mb-28">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1></div>
 
-        <div class="img-and-text grid grid-cols-2 items-center justify-evenly mx-auto w-[1100px]">
+        <div class="img-and-text grid lg:grid-cols-2 items-center justify-evenly space-y-4 mx-auto w-[100%] lg:w-[1100px]">
             <!-- image  -->
-             <div><img src="./images/others/faq.png" alt="">
+             <div class="w-[100%] lg:w-full"><img src="./images/others/faq.png" alt="">
             </div>
             <!-- accordion section  -->
             <div>
@@ -377,24 +377,34 @@
 
        </main>
 
-       <footer class="footer w-full bg-black h-[200px] mt-28">
+       <footer class="footer flex items-center justify-around w-full bg-black h-[200px] mt-28 px-6">
 
+             
               <div>
-                  <div  class="text-white flex gap-8">
-                    <h6>Download Now</h6>
-                    <p>License</p>
-                 </div>
+                <div  class="text-white flex gap-8">
+                  <h6>Download Now</h6>
+                  <p>License</p>
+               </div>
 
-                 <ul class="text-white flex">
-                    <li>About</li>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Careers</li>
-                    <li>Help</li>
-                    <li>Privacy Policy</li>
-                 </ul>
-                 <h3 class="text-white">© 2020 bike. All rights reserved</h3>
-              </div>
+               <ul class="text-white flex">
+                  <li>About</li>
+                  <li>Features</li>
+                  <li>Pricing</li>
+                  <li>Careers</li>
+                  <li>Help</li>
+                  <li>Privacy Policy</li>
+               </ul>
+               <h3 class="text-white">© 2020 bike. All rights reserved</h3>
+            </div>
+
+            <div>
+              <h3 class="text-2xl text-white">Get the App</h3>
+              <img class="w-[135px] h-[40px]" src="./images/others/ios.png" alt="">
+              <img class="w-[135px] h-[40px]" src="./images/others/android.png" alt="">
+
+            </div>
+            
+            
 
        </footer>
 
